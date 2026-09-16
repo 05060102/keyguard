@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KeyGuard · 软件加密保护系统</title>
+<meta name="description" content="KeyGuard - 给 EXE/APK/PDF 加上许可证锁，在线软件加密与授权保护平台">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: linear-gradient(160deg, #0b0f1a 0%, #111827 60%, #0f172a 100%);
+    color: #e5e7eb;
+    min-height: 100vh;
+  }
+  .hero {
+    text-align: center;
+    padding: 72px 24px 48px;
+  }
+  .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #f59e0b;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  .logo .dot { width: 10px; height: 10px; border-radius: 3px; background: linear-gradient(135deg, #f59e0b, #ef4444); display: inline-block; }
+  h1 {
+    font-size: 40px;
+    font-weight: 800;
+    background: linear-gradient(90deg, #fbbf24, #f97316);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 16px;
+  }
+  .sub { font-size: 18px; color: #9ca3af; max-width: 640px; margin: 0 auto 40px; line-height: 1.7; }
+  .promo-img {
+    max-width: 760px; width: 92%; margin: 0 auto 56px; display: block;
+    border-radius: 16px; box-shadow: 0 24px 64px rgba(0,0,0,.45);
+  }
+  .features {
+    display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;
+    max-width: 960px; margin: 0 auto 64px; padding: 0 24px;
+  }
+  .card {
+    flex: 1 1 240px; background: rgba(255,255,255,.04);
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 14px; padding: 24px;
+    transition: transform .2s, border-color .2s;
+  }
+  .card:hover { transform: translateY(-4px); border-color: rgba(245,158,11,.5); }
+  .card h3 { color: #fbbf24; font-size: 16px; margin-bottom: 10px; }
+  .card p { color: #9ca3af; font-size: 14px; line-height: 1.7; }
+  .cta { text-align: center; padding-bottom: 72px; }
+  .btn {
+    display: inline-block; padding: 14px 40px; border-radius: 10px;
+    background: linear-gradient(135deg, #f59e0b, #f97316);
+    color: #0b0f1a; font-size: 16px; font-weight: 700; text-decoration: none;
+    box-shadow: 0 8px 24px rgba(245,158,11,.3);
+  }
+  .btn:hover { box-shadow: 0 10px 32px rgba(245,158,11,.45); }
+  .foot { text-align: center; color: #4b5563; font-size: 13px; padding: 24px; }
+</style>
+</head>
+<body>
+  <div class="hero">
+    <div class="logo"><span class="dot"></span>KeyGuard</div>
+    <h1>给软件加一把"许可证锁"</h1>
+    <p class="sub">EXE / APK / PDF 在线加密授权平台 —— 客户不输入密钥，程序就打不开。不写代码，全程浏览器操作。</p>
+    <img class="promo-img" src="keyguard-promo.png" alt="KeyGuard 软件加密保护系统">
+  </div>
+
+  <div class="features">
+    <div class="card">
+      <h3>🔒 程序加密</h3>
+      <p>C++ 原生保护壳包裹 EXE/APK/DLL/JAR，卡密授权校验，防调试反逆向。</p>
+    </div>
+    <div class="card">
+      <h3>📄 文件加密</h3>
+      <p>PDF/文档/图片/视频 AES-256-GCM 加密，密钥 + 解密链接双重校验。</p>
+    </div>
+    <div class="card">
+      <h3>🗝️ 密钥管理</h3>
+      <p>批量生成卡密、设置有效期、绑定机器码、随时禁用吊销、记录解锁日志。</p>
+    </div>
+  </div>
+
+  <div class="cta">
+    <a class="btn" href="https://keyguard.fun" target="_blank" rel="noopener">立即使用 KeyGuard →</a>
+  </div>
+
+  <div class="foot">KeyGuard · 软件加密保护系统 · keyguard.fun</div>
+</body>
+</html>
