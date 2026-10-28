@@ -5,6 +5,7 @@
 [![Website](https://img.shields.io/badge/Website-keyguard.fun-667eea)](https://keyguard.fun)
 [![Free](https://img.shields.io/badge/Price-100%25%20FREE-brightgreen)](https://keyguard.fun)
 [![Online](https://img.shields.io/badge/Online%20Service-No%20Install-3aa675)](https://keyguard.fun)
+[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
 > **Put a license lock on your software — EXE / APK / PDF / any file.**
 > A completely **free** online platform that protects your programs and documents with key-based licensing. No code, no install, no cost.
@@ -50,6 +51,17 @@
 
 ---
 
+## 📖 FAQ / 常见问题
+
+- **Which file types are supported? / 支持哪些文件？** — EXE / DLL / JAR / APK get the protection shell; PDF / documents / images / videos get AES-256-GCM encryption. 可加保护壳或文件加密。
+- **Do I need to write any code? / 需要写代码吗？** — No. Everything happens in the browser — drag, drop, done. 全程浏览器操作，拖拽上传即可。
+- **Is it really free? / 真的免费吗？** — Yes, the core features are 100% free. 核心功能完全免费。
+- **Are my files stored on the server? / 文件会上传服务器吗？** — The encryption pipeline runs on our server; plaintext never lands on disk (AES-256-GCM encrypted storage). 加密流程由服务端处理，明文不落盘。
+- **Can the protection be cracked? / 能被破解吗？** — No protection is 100% unbreakable; KeyGuard significantly raises the cost of cracking. 任何保护都无法 100% 不可破解，KeyGuard 的目标是显著提高破解成本。
+- **Can I use it in commercial projects? / 可以商用吗？** — Yes. The website service is free for commercial use, and this repo is MIT-licensed. 官网服务可免费商用，本仓库代码遵循 MIT License。
+
+---
+
 ## ⚙️ Tech Highlights / 技术要点
 
 - AES-256-GCM encryption on disk, plaintext never lands on server / AES-256-GCM 加密落盘，明文不落地
@@ -67,10 +79,23 @@ Any software protection cannot be 100% unbreakable. KeyGuard's goal is to **sign
 
 ---
 
+## ⭐ Support / 支持项目
+
+If KeyGuard helps you, please give it a ⭐ **Star** — it helps more developers discover this project.
+
+如果 KeyGuard 对你有帮助，欢迎点一个 ⭐ **Star**，帮助更多开发者发现它。
+
+---
+
+## 📄 License / 开源协议
+
+[MIT](LICENSE) © 2026 [05060102](https://github.com/05060102)
+
+---
+
 ## 🔗 Links / 链接
 
 - **Website / 官网**: https://keyguard.fun
 - **This repository / 本文档仓库**: https://github.com/05060102/keyguard
 - **Support / 客服**: click "联系客服" at the bottom-right corner of the website
 - **QQ**: 3459047153
-- 
